@@ -8,6 +8,10 @@ FER_Pipeline is a facial expression recognition system that processes images or 
 - **Inference:** Real-time and batch predictions on input data.
 - **Visualization:** Graphical display of prediction results and performance metrics.
 
+## Pipeline preview
+
+![Pipeline result](./Results/pipeline_samples/test2_output.jpg)
+
 ## Requirements
 - Python 3.9+
 - Dependencies listed in `requirements.txt`
@@ -34,5 +38,10 @@ FER_Pipeline is a facial expression recognition system that processes images or 
 - **Evaluation**: Contains scripts for evaluating individual models as well as the ensemble performance.
 - **Models**: Includes code for model training and a directory for storing model checkpoints.
 - **Results**: Stores sample outputs including detection results on test images, evaluation graphs, CSV files of metrics, and examples of the pipeline applied to images.
+
+## Benchmark results
+
+![Benchmark Results](./Results/graphs/performance_vs_speed_vs_size.png)
+
 ## License
 Specify your project license here or refer to the [LICENSE](LICENSE) file.
