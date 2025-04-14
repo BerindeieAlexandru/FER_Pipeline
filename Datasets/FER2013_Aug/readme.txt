@@ -1,0 +1,1 @@
+Put here train, val and test directories along the csv for fer2013 aug.
