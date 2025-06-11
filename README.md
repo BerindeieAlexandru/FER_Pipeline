@@ -12,6 +12,11 @@ FER_Pipeline is a facial expression recognition system that processes images or 
 
 ![Pipeline result](./Results/pipeline_samples/test2_output.jpg)
 
+## DEMO
+<p align="center">
+  <img src="./Results/demos/demo.gif" alt="Demo run" width="239" height="400"/>
+</p>
+
 ## Requirements
 - Python 3.9+
 - Dependencies listed in `requirements.txt`
@@ -40,11 +45,11 @@ For accessing datasets use the Google Drive provided in here. :arrow_right:  [Go
 - **Detection_Pipeline**: Have the core pipeline for face detection, the ensemble model module, and the ResEmoteNet architecture. It also includes an experimental pipeline and separate components for dedicated testing.
 - **Evaluation**: Contains scripts for evaluating individual models as well as the ensemble performance.
 - **Models**: Includes code for model training and a directory for storing model checkpoints.
-- **Results**: Stores sample outputs including detection results on test images, evaluation graphs, CSV files of metrics, and examples of the pipeline applied to images.
+- **Results**: Stores sample outputs including detection results on test images, evaluation graphs, CSV files of metrics, and examples of the pipeline applied to images. Additionally some demos are here.
 
 ## Benchmark results
 #### Evaluation on FER2013 dataset
-![FER2013](test_benchmark_fer2013_adv.png)
+![FER2013](./Results/graphs/test_benchmark_fer2013_adv.png)
 #### Evaluation on different datasets
 ![CrossDB](./Results/graphs/crossdb_evaluation.png)
 #### Advanced evaluation (performance vs speed vs size)
