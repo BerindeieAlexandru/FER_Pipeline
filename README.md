@@ -25,11 +25,14 @@ FER_Pipeline is a facial expression recognition system that processes images or 
    ```bash
    pip install -r requirements.txt
    ```
-3. **Navigate into the project directory:**
+3. **Download models checkpoints and / or datasets:**
+Place the checkpoints in the correct directory in Models or adjust the loading path in pipeline. :arrow_right: [GoogleDrive CP](https://drive.google.com/drive/folders/10u2uMyfBatGi3vSSX9nMqy0iLtQPwDwN?usp=sharing)
+For accessing datasets use the Google Drive provided in here. :arrow_right:  [GoogleDrive DS](https://drive.google.com/drive/folders/1sFIIpjxYzDPPdGXCrBJCEjeVX5QVyhGZ?usp=sharing)
+4. **Navigate into the project directory and follow the README from there:**
    ```bash
    cd Detection_pipeline
    ```
-4. **Read the ``usage.md`` then run ``pipeline.py`` accordingly.**
+5. **Read the ``usage.md`` then run ``pipeline.py`` accordingly.**
 
 ## Project Structure
 
@@ -40,7 +43,11 @@ FER_Pipeline is a facial expression recognition system that processes images or 
 - **Results**: Stores sample outputs including detection results on test images, evaluation graphs, CSV files of metrics, and examples of the pipeline applied to images.
 
 ## Benchmark results
-
+#### Evaluation on FER2013 dataset
+![FER2013](test_benchmark_fer2013_adv.png)
+#### Evaluation on different datasets
+![CrossDB](./Results/graphs/crossdb_evaluation.png)
+#### Advanced evaluation (performance vs speed vs size)
 ![Benchmark Results](./Results/graphs/performance_vs_speed_vs_size.png)
 
 ## License

@@ -1,6 +1,14 @@
 # Fer Pipeline
 
-This pipeline uses various face detection algorithms and an ensemble of deep learning models to perform real-time or offline facial emotion recognition (FER).
+This pipeline uses various face detection algorithms and an ensemble of deep learning models to perform real-time facial emotion recognition.
+
+## Pipeline Architecture
+
+![architecture](../Results/graphs/architecure.png)
+
+## Confusion Matrix on FER2013 using proposed ensemble
+
+![CMatrix](../Results/graphs/CMatrix.png)
 
 ## Features
 
